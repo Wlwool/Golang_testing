@@ -22,7 +22,7 @@ func GetScore() (int, error) {
 
 	_, err := fmt.Scanln(&score)
 	if err != nil{
-		return 0, fmt.Errorf("некорректный ввод")
+		return 0, fmt.Errorf("некорректный ввод: %w", err)
 	}
 
 	if score < 0 || score > 100{
