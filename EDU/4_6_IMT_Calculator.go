@@ -29,7 +29,7 @@ import (
 	"log"
 )
 
-func main() {
+func calculatorIMT() {
 	var (weightKg, heightCm float64)
 
 	fmt.Printf("Введите ваш вес (кг): ")
@@ -60,14 +60,4 @@ func main() {
 	fmt.Printf("Категория: %s\n", category)
 	
 }
-
-
-
-
-
-
-
-
-
-
 

@@ -28,7 +28,7 @@ import (
 )
 
 
-func main() {
+func goods() {
 	fmt.Printf("Введите название товара: ")
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Scan()
