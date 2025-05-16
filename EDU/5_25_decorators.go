@@ -1,26 +1,26 @@
 package main
 
 import (
-	"fmt"
+	// "fmt"
 	"math/rand/v2"
 )
 
 
-func main() {
-	// fmt.Println(Attack())
-	// attackWithDamageBoost := DamageBoostDecorator(Attack)
-	// fmt.Println(attackWithDamageBoost())
+// func main() {
+// 	// fmt.Println(Attack())
+// 	// attackWithDamageBoost := DamageBoostDecorator(Attack)
+// 	// fmt.Println(attackWithDamageBoost())
 
-	// attackWithCriticalHit := CriticalHitDecorator(Attack)
-	// fmt.Println(attackWithCriticalHit)
+// 	// attackWithCriticalHit := CriticalHitDecorator(Attack)
+// 	// fmt.Println(attackWithCriticalHit)
 
-	// attackWithSlowEffect := SlowEffectDecorator(Attack)
-	// fmt.Println(attackWithSlowEffect)
-	attackWithDamageBoost := DamageBoostDecorator(Attack)
-	attackWithCriticalHit := CriticalHitDecorator(attackWithDamageBoost)
-	attackWithSlowEffect := SlowEffectDecorator(attackWithCriticalHit)
-	fmt.Println(attackWithSlowEffect())
-}
+// 	// attackWithSlowEffect := SlowEffectDecorator(Attack)
+// 	// fmt.Println(attackWithSlowEffect)
+// 	attackWithDamageBoost := DamageBoostDecorator(Attack)
+// 	attackWithCriticalHit := CriticalHitDecorator(attackWithDamageBoost)
+// 	attackWithSlowEffect := SlowEffectDecorator(attackWithCriticalHit)
+// 	fmt.Println(attackWithSlowEffect())
+// }
 
 func Attack() string {
 	return "Атака выполнена"
