@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func main() {
+func timeOfDay() {
 	var input int
 	fmt.Println("Введите время в часах (0-23): ")
 	_, err := fmt.Scan(&input)
@@ -28,5 +28,4 @@ func main() {
 	}
 
 	fmt.Printf("\nСейчас: %02dч. - %s\n", input, timeOfDay)
-	
 }
