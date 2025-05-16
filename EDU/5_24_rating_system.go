@@ -2,19 +2,19 @@ package main
 
 import (
 	"fmt"
-	"os"
+	// "os"
 )
 
 
-func main() {
-	score, err := GetScore()
-	if err != nil {
-		fmt.Println("Error: ", err)
-		os.Exit(1)
-	}
-	grade := LetterGrade(score)
-	fmt.Printf("Введите оценку (0 - 100): %s\n", grade)
-}
+// func main() {
+// 	score, err := GetScore()
+// 	if err != nil {
+// 		fmt.Println("Error: ", err)
+// 		os.Exit(1)
+// 	}
+// 	grade := LetterGrade(score)
+// 	fmt.Printf("Введите оценку (0 - 100): %s\n", grade)
+// }
 
 func GetScore() (int, error) {
 	var score int
